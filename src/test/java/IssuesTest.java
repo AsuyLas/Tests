@@ -36,6 +36,15 @@ public class IssuesTest {
         assertTrue(issuesPage.getNumberOfIssues() > 0);
     }
 
+   // @Test
+   // public void testCreateNewIssue() {
+       // int initialNumberOfIssues = issuesPage.getNumberOfIssues();
+       // issuesPage.createNewIssue("Тестовый заголовок", "Это тестовый вопрос.");
+       // int updatedNumberOfIssues = issuesPage.getNumberOfIssues();
+        //assertEquals(updatedNumberOfIssues, initialNumberOfIssues + 1);
+    //}
+    //Было предпринято много попыток запустить этот тест, но все они не увенчались успехом,
+    //если ты посмотришь и поможешь пофиксить этот баг, буду очень благодарна.
     @AfterAll
     public static void tearDown() {
         if (driver != null) {
