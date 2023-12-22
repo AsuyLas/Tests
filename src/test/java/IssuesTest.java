@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
 public class IssuesTest {
     private static WebDriver driver;
     private IssuesPage issuesPage;
@@ -35,7 +34,6 @@ public class IssuesTest {
     public void testViewExistingIssues() {
         assertTrue(issuesPage.getNumberOfIssues() > 0);
     }
-
    // @Test
    // public void testCreateNewIssue() {
        // int initialNumberOfIssues = issuesPage.getNumberOfIssues();
